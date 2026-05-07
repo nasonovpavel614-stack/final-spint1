@@ -1,4 +1,3 @@
-// Замените на свой путь модуля, если GitHub-логин другой: github.com/<user>/final-sprint1
 module github.com/nasonovpavel614-stack/final-sprint1
 
 go 1.22

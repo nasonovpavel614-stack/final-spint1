@@ -1,4 +1,3 @@
-# Итоговое задание: CI (проверки + тесты) и CD (публикация в Docker Hub по тегам).
 name: CI/CD
 
 on:
@@ -48,7 +47,6 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          # Репозиторий на Docker Hub должен существовать, имя совпадает с проектом.
           images: ${{ secrets.DOCKER_USERNAME }}/final-sprint1
 
       - name: Build and push
